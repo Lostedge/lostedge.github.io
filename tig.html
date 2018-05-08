@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function changeImage()
+{
+element=document.getElementById('myimage')
+if (element.src.match("2"))
+  {
+  element.src="1.jpg";
+  }
+else
+  {
+  element.src="2.jpg";
+  }
+}
+</script>
+
+<img id="myimage" onclick="changeImage()" src="1.jpg">
+
+<p>点击灯泡来点亮或熄灭这盏灯</p>
+
+</body>
+</html>
