@@ -1,0 +1,144 @@
+html {
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', Arial, 'Microsoft YaHei', sans-serif, 'PT Sans', sans-serif;
+  line-height: 1.6;
+  color: #252525;
+}
+
+footer, header, menu, nav, section, {
+  display: block
+}
+
+a {
+  color: #252525;
+  background-color: transparent;
+  text-decoration:none;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+footer {
+  background-color: #fff;
+  height: 150px;
+}
+
+ul {
+  list-style-type: none;
+  height: 80px;
+  margin: 0;
+}
+
+li {
+  position: relative;
+  display: inline;
+  float: none;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px
+}
+
+.element {
+  display:inline-block;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 3px 10px #000;
+  height: 80px;
+}
+
+.nav-header {
+  vertical-align: middle;
+}
+
+.nav-right {
+  float: right;
+  margin-right: 10px;
+}
+
+.nav-item {
+  line-height: 80px;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.nav-item>a {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.nav-item>a:hover {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+
+.navbar>li {
+  position: relative;
+  display: block;
+}
+
+.navbar>li>a {
+  position: relative;
+  display: block;
+  font-size: 40px;
+}
+
+.section-01 {
+  padding-top: 200px;
+  color: #fff;
+}
+
+.section-02 {
+
+}
+
+.page {
+  position: relative;
+  display: table;
+  height: 50vh;
+  padding-bottom: 0;
+  padding-top: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.page-top {
+  background-color: #0a0e1ce0;
+  height: 100vh;
+  top: -80px;
+  z-index: -1;
+}
+
+.page-bottom {
+  background-color: #fff;
+  height: auto;
+}
